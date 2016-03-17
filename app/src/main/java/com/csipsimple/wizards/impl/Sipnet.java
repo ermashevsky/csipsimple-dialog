@@ -64,7 +64,7 @@ public class Sipnet extends SimpleImplementation {
         prefs.setCodecPriority("GSM/8000/1", SipConfigManager.CODEC_WB, "0");
         prefs.setCodecPriority("iLBC/8000/1", SipConfigManager.CODEC_WB,"0");
         prefs.setCodecPriority("PCMU/8000/1", SipConfigManager.CODEC_WB,"243");
-        prefs.setCodecPriority("G722/16000/1", SipConfigManager.CODEC_WB,"0");
+        //prefs.setCodecPriority("G722/16000/1", SipConfigManager.CODEC_WB,"0");
         prefs.setCodecPriority("speex/16000/1", SipConfigManager.CODEC_WB,"0");
         prefs.setCodecPriority("speex/8000/1", SipConfigManager.CODEC_WB,"0");
         prefs.setCodecPriority("speex/32000/1", SipConfigManager.CODEC_WB,"0");
@@ -76,7 +76,7 @@ public class Sipnet extends SimpleImplementation {
         prefs.setCodecPriority("iLBC/8000/1", SipConfigManager.CODEC_NB,"0");
         prefs.setCodecPriority("GSM/8000/1", SipConfigManager.CODEC_NB, "0");
         prefs.setCodecPriority("speex/8000/1", SipConfigManager.CODEC_NB,"0");
-        prefs.setCodecPriority("G722/16000/1", SipConfigManager.CODEC_NB,"0");
+        //prefs.setCodecPriority("G722/16000/1", SipConfigManager.CODEC_NB,"0");
         prefs.setCodecPriority("speex/16000/1", SipConfigManager.CODEC_NB,"0");
         prefs.setCodecPriority("speex/32000/1", SipConfigManager.CODEC_NB,"0");
         
