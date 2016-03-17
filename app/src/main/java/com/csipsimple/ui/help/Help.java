@@ -142,7 +142,7 @@ public class Help extends SherlockDialogFragment implements OnItemClickListener 
         items.add(new HelpEntry(android.R.drawable.ic_menu_gallery, R.string.legal_information, LEGALS));
         
         if(NightlyUpdater.isNightlyBuild(getActivity())){
-			items.add(new HelpEntry(R.drawable.ic_launcher_nightly, R.string.update_nightly_build, NIGHTLY));
+			//items.add(new HelpEntry(R.drawable.ic_launcher_nightly, R.string.update_nightly_build, NIGHTLY));
 		}
 		
         lv.setAdapter(new HelpArrayAdapter(getActivity(), items));

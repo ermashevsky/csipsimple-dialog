@@ -458,7 +458,7 @@ public class SipHome extends SherlockFragmentActivity implements OnWarningChange
         // }
         
         // Nightly build check
-        if(NightlyUpdater.isNightlyBuild(this)) {
+        /*if(NightlyUpdater.isNightlyBuild(this)) {
             Log.d(THIS_FILE, "Sanity check : we have a nightly build here");
             ConnectivityManager connectivityService = (ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
             NetworkInfo ni = connectivityService.getActiveNetworkInfo();
@@ -482,7 +482,7 @@ public class SipHome extends SherlockFragmentActivity implements OnWarningChange
                     }
                 }
             }
-        }
+        }*/
         
         applyWarning(WarningUtils.WARNING_PRIVILEGED_INTENT, WarningUtils.shouldWarnPrivilegedIntent(this, prefProviderWrapper));
         applyWarning(WarningUtils.WARNING_NO_STUN, WarningUtils.shouldWarnNoStun(prefProviderWrapper));
